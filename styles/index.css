@@ -55,6 +55,11 @@ nav ul a{
     color: #35abc9;
     font-weight: bold;
 }
+
+nav a:hover{
+    font-size: 17px;
+    color: aliceblue;
+}
 /*estilos para seccion about us*/
 
 .about{
