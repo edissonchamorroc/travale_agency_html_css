@@ -50,10 +50,15 @@ nav li{
     align-items: center;
 }
 
-nav ul a{
+nav a{
     text-decoration: none;
     color: #35abc9;
     font-weight: bold;
+}
+
+nav a:hover{
+    font-size: 18px;
+    color: aliceblue;
 }
 /*estilos para seccion about us*/
 
