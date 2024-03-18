@@ -9,17 +9,37 @@
     <link
         href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAg+AA/+moAACV/wBPT08AAND/AEdHRwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREUFBQRERERQRQUFBEUEREUFEREQUERERFEUzNEEREUREVERDREQREUREREREERFEREREREQAARFFVURVVAIhRFVVVVVQAiERRERERAAiEREURERAAiIREUFERAAiIhEUEUFAAiIhERERQUAiIhERERERECEREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/destino.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <h1>FRANCIA</h1>
         <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2709972.webp?w=768&h=432"
             alt="Foto torre Eiffel">
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destino_orlando.html">Orlando Florida</a></li>
+            <li><a href="destino_japon.html">Japon</a></li>
+            <li><a href="destino_coreasur.html">Corea del Sur</a></li>
+            <li><a href="destino_mexico.html">Mexico</a></li>
+            <li><a href="destino_egipto.html">Egipto</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul>
+            <li><a href="#header">Banner Principal</a></li>
+            <li><a href="#description">Descripción</a></li>
+            <li><a href="#attractions">Atracciones</a></li>
+            <li><a href="#itinerary">Itinerario</a></li>
+            <li><a href="#costs">Costos</a></li>
+            <li><a href="#footer">Contactanos</a></li>
+        </ul>
+    </aside>
     <main>
-        <a href="index.html">REGRESAR</a>
-        <section class="description">
+        <section id="description">
             <h2>Descripción</h2>
             <p>Francia, conocida como la 'cuna del arte y la cultura', es un país que deslumbra con su elegancia y
                 diversidad. Desde las icónicas calles empedradas de París, con su majestuosa Torre Eiffel y la
@@ -33,124 +53,231 @@
                 inolvidable
                 para los viajeros de todo el mundo.</p>
         </section>
-        <section class="attractions">
-            <h2>Atracciones</h2>
+        <section id="attractions">
+            <div class="content-attractions">
+                <div id="attraction1">
+                    <img src="https://historia.nationalgeographic.com.es/medio/2017/03/30/luces-en-la-noche_dd26a9e8.png"
+                        alt="Torre Eiffel">
+                    <div class="overlay">
+                        <h2 class="attraction-name">Torre Eiffel en París</h2>
+                        <p class="attraction-desc">!Desc corta!</p>
+                    </div>
+                </div>
+                <div id="attraction2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuTNMhxIbN4havPP8jGfe8-3oR6QT3jLI6UHHkOEk-w&s"
+                        alt="museo Louvre">
+                    <div class="overlay">
+                        <h2 class="attraction-name">Museo del Louvre en París</h2>
+                        <p class="attraction-desc">Desc corta</p>
+                    </div>
+                </div>
+                <div id="attraction3">
+                    <img src="https://www.paris.es/f/francia/paris/guia/catedral-notre-dame-m.jpg"
+                        alt="catedral-notre-dame">
+                    <div class="overlay">
+                        <h2 class="attraction-name">Catedral de Notre-Dame</h2>
+                        <p class="attraction-desc">Desc corta</p>
+                    </div>
+                </div>
+                <div id="attraction4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz-0BMWzRRk0PoaQPsArIhiTV7qNeK5YpXqPYdLMqtHA&s"
+                        alt="palacio Versalles">
+                    <div class="overlay">
+                        <h2 class="attraction-name">Palacio de Versalles cerca de París</h2>
+                        <p class="attraction-desc">Desc corta</p>
+                    </div>
+                </div>
+                <div id="attraction5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfuiQW8syOQJ_M7lgE8xwwdjD0SonnTSgrIGt-r8-Byg&s"
+                        alt="viñedos Borgoña">
+                    <div class="overlay">
+                        <h2 class="attraction-name">Viñedos de Borgoña</h2>
+                        <p class="attraction-desc">Desc corta!</p>
+                    </div>
+                </div>
+            </div>
 
-            <ul>
-                <li>Torre Eiffel en París <br> <img
-                        src="https://historia.nationalgeographic.com.es/medio/2017/03/30/luces-en-la-noche_dd26a9e8.png"
-                        alt="Torre Eiffel" width="300" height="400"></li>
-                <li>Museo del Louvre en París <br><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuTNMhxIbN4havPP8jGfe8-3oR6QT3jLI6UHHkOEk-w&s"
-                        alt="museo Louvre" width="300" height="400"></li>
-                <li>Catedral de Notre-Dame en París <br> <img
-                        src="https://www.paris.es/f/francia/paris/guia/catedral-notre-dame-m.jpg"
-                        alt="catedral-notre-dame" width="300" height="400"></li>
-                <li>Palacio de Versalles cerca de París <br> <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz-0BMWzRRk0PoaQPsArIhiTV7qNeK5YpXqPYdLMqtHA&s"
-                        alt="palacio Versalles" width="300" height="400"></li>
-                <li>Viñedos de Borgoña <br> <img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfuiQW8syOQJ_M7lgE8xwwdjD0SonnTSgrIGt-r8-Byg&s"
-                        alt="viñedos Borgoña" width="300" height="400"></li>
-              
-            </ul>
         </section>
-        <section class="itinerary">
+        <section id="itinerary">
             <h2>Itinerario</h2>
-            <p>
-            <h3>Día 1: París</h3>
+            <div class="days">
+                <div class="day">
+                    <div class="day-heading">
+                        <h3>Día 1: París</h3>
+                    </div>
+                    <div class="activity-details">
+                        <ul>
+                            <li><strong>Mañana:</strong> Visita a la Torre Eiffel y paseo por los Campos de Marte.</li>
+                            <li><strong>Tarde:</strong> Recorrido por el Museo del Louvre para admirar obras maestras
+                                como la Mona
+                                Lisa.</li>
+                            <li><strong>Noche:</strong> Cena en un encantador bistró parisino.</li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-heading">
+                        <h3>Día 2: Catedral de Notre Dame</h3>
+                    </div>
+                    <div class="activity-details">
+                        <ul>
+                            <li><strong>Mañana:</strong>Exploración de la Catedral de Notre-Dame y paseo por el Barrio
+                                Latino.</li>
+                            <li><strong>Tarde:</strong>Visita al Palacio de Versalles y sus exuberantes jardines.</li>
+                            <li><strong>Noche:</strong>Cena en un restaurante con vista a la Torre Eiffel iluminada.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-heading">
+                        <h3>Día 3: Borgoña</h3>
+                    </div>
+                    <div class="activity-details">
+                        <ul>
+                            <li><strong>Mañana:</strong>Viaje a la región de Borgoña para visitar sus famosos viñedos y
+                                degustar
+                                vinos locales.</li>
+                            <li><strong>Tarde:</strong>Recorrido por el centro histórico de Beaune, con su Hôtel-Dieu y
+                                sus calles
+                                empedradas.</li>
+                            <li><strong>Noche:</strong>Cena en un restaurante típico de la región, acompañada de vinos
+                                de Borgoña.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-heading">
+                        <h3>Día 4: Costa Azul</h3>
+                    </div>
+                    <div class="activity-details">
+                        <ul>
+                            <li><strong>Mañana:</strong>Viaje a la Costa Azul y día de relajación en las playas de Niza.
+                            </li>
+                            <li><strong>Tarde:</strong> Paseo por el Paseo de los Ingleses y visita al casco antiguo de
+                                Niza con su
+                                mercado de flores.</li>
+                            <li><strong>Noche:</strong>Cena en un restaurante frente al mar, disfrutando de la brisa
+                                mediterránea.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-heading">
+                        <h3>Día 5: Niza</h3>
+                    </div>
+                    <div class="activity-details">
+                        <ul>
+                            <li><strong>Mañana:</strong>Visita al Museo Matisse y al Museo de Arte Moderno y
+                                Contemporáneo de Niza.
+                            </li>
+                            <li><strong>Tarde:</strong>Excursión a la cercana ciudad de Mónaco para explorar el
+                                Principado y su
+                                famoso casino.</li>
+                            <li><strong>Noche:</strong> Regreso a Niza para una última cena en un restaurante con vistas
+                                al puerto.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-            <ul>
-                <li><strong>Mañana:</strong> Visita a la Torre Eiffel y paseo por los Campos de Marte.</li>
-                <li><strong>Tarde:</strong> Recorrido por el Museo del Louvre para admirar obras maestras como la Mona
-                    Lisa.</li>
-                <li><strong>Noche:</strong> Cena en un encantador bistró parisino.</li>
-            </ul>
-
-            <h3>Día 2: París</h3>
-            <ul>
-                <li><strong>Mañana:</strong>Exploración de la Catedral de Notre-Dame y paseo por el Barrio Latino.</li>
-                <li><strong>Tarde:</strong>Visita al Palacio de Versalles y sus exuberantes jardines.</li>
-                <li><strong>Noche:</strong>Cena en un restaurante con vista a la Torre Eiffel iluminada.</li>
-            </ul>
-
-            <h3>Día 3: Borgoña</h3>
-
-            <ul>
-                <li><strong>Mañana:</strong>Viaje a la región de Borgoña para visitar sus famosos viñedos y degustar
-                    vinos locales.</li>
-                <li><strong>Tarde:</strong>Recorrido por el centro histórico de Beaune, con su Hôtel-Dieu y sus calles
-                    empedradas.</li>
-                <li><strong>Noche:</strong>Cena en un restaurante típico de la región, acompañada de vinos de Borgoña.
-                </li>
-            </ul>
-
-            <h3>Día 4: Costa Azul</h3>
-
-            <ul>
-                <li><strong>Mañana:</strong>Viaje a la Costa Azul y día de relajación en las playas de Niza.</li>
-                <li><strong>Tarde:</strong> Paseo por el Paseo de los Ingleses y visita al casco antiguo de Niza con su
-                    mercado de flores.</li>
-                <li><strong>Noche:</strong>Cena en un restaurante frente al mar, disfrutando de la brisa mediterránea.
-                </li>
-            </ul>
-
-            <h3>Día 5: Niza</h3>
-            <ul>
-                <li><strong>Mañana:</strong>Visita al Museo Matisse y al Museo de Arte Moderno y Contemporáneo de Niza.
-                </li>
-                <li><strong>Tarde:</strong>Excursión a la cercana ciudad de Mónaco para explorar el Principado y su
-                    famoso casino.</li>
-                <li><strong>Noche:</strong> Regreso a Niza para una última cena en un restaurante con vistas al puerto.
-                </li>
-            </ul>
-            </p>
         </section>
-        <section class="costs">
+        <section id="costs">
             <h2>Costos</h2>
-            <p>
-            <h3>Traslados:</h3>
-            <ul>
-                <li> Vuelo de ida y vuelta desde Colombia a Francia: $800 - $1200</li>
-                <li>Transporte público en París (pases de metro y autobús para 5 días): $40 - $60</li>
-                <li>Alquiler de coche para explorar la región de Borgoña por un día: $50 - $100</li>
-            </ul>
+            <div class="content-costs">
+                <div class="cost">
+                    <h3>Traslados:</h3>
+                    <p>Teniendo en cuenta los vuelos y traslados internos</p>
+                    <div class="day-heading">
+                        <p> ver mas</p>
+                    </div>
+                    <div class="activity-details">
+                        <p>se tiene que:</p>
+                        <ul>
+                            <li> Vuelo de ida y vuelta desde Colombia a Francia: $800 - $1200</li>
+                            <li>Transporte público en París (pases de metro y autobús para 5 días): $40 - $60</li>
+                            <li>Alquiler de coche para explorar la región de Borgoña por un día: $50 - $100</li>
+                        </ul>
+                    </div>
+                </div>
 
-            <h3> Hospedaje:</h3>
-            <ul>
-                <li>Hotel en París (4 noches, habitación doble): $600 - $1000</li>
-                <li>Hotel en Niza (1 noche, habitación doble): $100 - $200</li>
-            </ul>
-            <h3>Entradas a Sitios Turísticos:</h3>
-            <ul>
-                <li>Torre Eiffel (entrada al segundo nivel): $20 - $30 por persona</li>
-                <li>Museo del Louvre: $15 - $25 por persona</li>
-                <li>Palacio de Versalles (entrada al Palacio y Jardines): $20 - $30 por persona</li>
-                <li>Museo Matisse en Niza: $10 - $15 por persona</li>
-                <li>Museo de Arte Moderno y Contemporáneo de Niza: $10 - $15 por persona</h3>
-                </li>
-            </ul>
+                <div class="cost">
+                    <h3>Hospedaje:</h3>
+                    <p>Abarcando unicamente el sitio de hospedaje fijo</p>
+                    <div class="day-heading">
+                        <p> ver mas</p>
+                    </div>
+                    <div class="activity-details">
+                        <p>se tiene que:</p>
+                        <ul>
+                            <li>Hotel en París (4 noches, habitación doble): $600 - $1000</li>
+                            <li>Hotel en Niza (1 noche, habitación doble): $100 - $200</li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="cost">
+                    <h3>Entradas a Sitios Turísticos:</h3>
+                    <p>Esto varia segun el itinerario pero</p>
+                    <div class="day-heading">
+                        <p> ver mas</p>
+                    </div>
+                    <div class="activity-details">
+                        <p>se tiene que:</p>
+                        <ul>
+                            <li>Torre Eiffel (entrada al segundo nivel): $20 - $30 por persona</li>
+                            <li>Museo del Louvre: $15 - $25 por persona</li>
+                            <li>Palacio de Versalles (entrada al Palacio y Jardines): $20 - $30 por persona</li>
+                            <li>Museo Matisse en Niza: $10 - $15 por persona</li>
+                            <li>Museo de Arte Moderno y Contemporáneo de Niza: $10 - $15 por persona</h3>
+                            </li>
+                        </ul>
 
+                    </div>
+                </div>
 
-            <h3>Comida:</h3>
-            <ul>
-                <li>Desayuno: $10 - $20 por persona por día</li>
-                <li>Almuerzo: $15 - $30 por persona por día</li>
-                <li>Cena: $30 - $50 por persona por día</li>
-                <hr>
-                <li><strong> Total Estimado por Persona para 5 Días y 4 noches en Francia:</strong> $2040 - $3435</li>
-                <hr>
-            </ul>
-            </p>
+                <div class="cost">
+                    <h3>Comida:</h3>
+                    <p>Los valores mostrados son un aproximado ya que puede variar segun el lugar y la comida</p>
+                    <div class="day-heading">
+                        <p>ver mas</p>
+                    </div>
+                    <div class="activity-details">
+                        <p>se tiene que:</p>
+                        <ul>
+                            <li>Desayuno: $10 - $20 por persona por día</li>
+                            <li>Almuerzo: $15 - $30 por persona por día</li>
+                            <li>Cena: $30 - $50 por persona por día</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cost">
+                    <h3>Total estimado</h3>
+                    <p>El valor mostrado es una aproximado ya que puede variar segun los gastos adicionales que el
+                        cliente</p>
+                    <div class="day-heading">
+                        <p>ver mas</p>
+                    </div>
+                    <div class="activity-details">
+                        <p>genere fuera de lo establecido en el itinerario</p>
+                        <h3>Total Estimado por Persona para 5 Días y 4 noches en Francia:$2040 - $3435.</h3>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <ul>
             <li>Desarrollado por: <strong> John Edisson Chamorro Coral</strong></li>
             <li>Correo electrónico: <strong>john.chamorro@udea.edu.co</strong></li>
         </ul>
     </footer>
 </body>
+<script src="./js/destino.js"></script>
 
 </html>
